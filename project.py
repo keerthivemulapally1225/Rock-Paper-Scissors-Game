@@ -1,5 +1,5 @@
 import random
-game_images=['rock','paper','scissors']
+game_images=['rock','paper','pen']
 user_choice = int(input('enter the choice Type 0 for Rock, 1 for Paper, 2 for Scissors: '))
 if user_choice>=3 or user_choice<0:
     print("you entered invalid number,you loose")
